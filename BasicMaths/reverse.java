@@ -20,9 +20,9 @@ Constraints:
  */
 package BasicMaths;
 
-import java.util.*;
+//import java.util.*;
 class reverse {
-    public static int reverse(int x) {
+    public static int reverse1 (int x) {
         int revN = 0;
         while (x != 0) {
             int ld = x % 10;
@@ -42,7 +42,7 @@ class reverse {
      // Driver program to run the case
      public static void main(String args[]) {
         int x =122324;
-        System.out.println("Count of digits that divide N: " + reverse(x));
+        System.out.println("Count of digits that divide N: " + reverse1(x));
     }
 }
 
