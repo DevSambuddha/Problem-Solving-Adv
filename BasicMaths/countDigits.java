@@ -1,6 +1,6 @@
-//Count the digits
-//for  String N = "122324";
-
+/*Count the digits
+for  String N = "122324";
+*/
 
 package BasicMaths;
 
